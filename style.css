@@ -33,7 +33,7 @@ header{
 */
 .heading{
     font-size:5em;
-    padding:20px 200px;
+    padding:10px 20px;
     color: dodgerblue;
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
     margin-right:0;
@@ -145,7 +145,7 @@ nav ul ul ul li{
 
 
 
-.first{
+.first, .founderclass{
     margin-left: 15%;
     line-height: 40px;
     text-align: justify;  
@@ -214,10 +214,10 @@ margin-top:-200px;
   margin-right:6px;
 }
 .bbv1{
-  margin: 10px 10 20px 15%;
+  margin: 10px 10% 20px 10%;
   line-height: 40px;
   text-align: justify;  
-  margin-right:10%;
+
   background-color: rgb(54, 75, 115);
   color:white;
   border-radius: 10px;
@@ -256,24 +256,19 @@ text-align: center;
     margin-left:10%;
     
 }
+
 .ya{
-  margin:0px 12% 0px -10%;
-  font-family:Benne;
+
+  
   font-weight: 600;
   font-size: 20px;
   text-align: justify;
 }
-.ya h3{
-  margin:40px auto -10px 350px;
-  color:black
+.tone{
+  font-size: 25px; text-align: center;
 }
 
-.hrclass{
-margin-left: 350px;
-margin-top: 0px;
-width:70px;
 
-}
 .forpdf{
 margin: 40px 30px 20px 70px;
 
@@ -373,15 +368,15 @@ h1{
 }
 
 
-
 @media all and (max-width:768px){
-  *{
-    font-family: Roc\\;
-  }
 header{
     max-width:100%;
-    margin:0;
+    margin:-40px 0 0 0;
     padding:0;
+    
+}
+#header{
+  display: none;
 }
 nav{
     margin:40px 0px 0px 0px;  
@@ -421,6 +416,7 @@ nav{
     font-size: 20px;
     text-decoration: none;
     border:none;
+  
 }
 .toggle p{
     font-size: 20px;
@@ -436,9 +432,11 @@ nav{
 .nav ul li{
     display: block;
     width:100%;
+    
 }
 nav ul ul .toggle, nav ul ul a{
 padding: 0 40px;
+margin-top:0px
 }
 nav ul ul ul a{
     padding: 0 80px;
@@ -472,11 +470,14 @@ nav ul ul ul li{
     position: static;
 }
 
-.first h1{
+h1{
   text-align: left;
-  font-size: 32px;
+  font-size: 30px;
  
   
+}
+.first h4{
+  font-size: 14px;
 }
 img{
     width:100%;
@@ -502,8 +503,15 @@ img{
 .pone{
     font-size: 15px;
 }
-.ya{
-    margin:0px 12% 0px -80%;
+
+  .bhah1{
+    margin-left:0%;
+    padding:5px;
+    font-size: 23px;
+  }
+  .bbv1 .tone{
+    font-size: 14px;
+    padding:-2px;
   }
   #firstt img{
       margin-left:0;
@@ -524,7 +532,10 @@ img{
    overflow: hidden;
     border-radius: 15px 15px 0 0;
   }
-
+.founderclass h1{
+  font-size: 35px;
+ 
+}
 }
 @media all and (max-width:330px){
     nav ul li{
