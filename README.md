@@ -1,2 +1,2 @@
-# Covaxine__Website- Check out the website 
+# Covaxine__Website- 
 # https://dilpreetkaur16.github.io/Ecommerce/main.html
